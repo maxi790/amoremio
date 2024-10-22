@@ -1,0 +1,8 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Color de fondo */
+    border-top: 1px solid #dee2e6; /* Línea superior opcional */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #fff; 
+  }

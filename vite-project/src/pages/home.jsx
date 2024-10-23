@@ -25,7 +25,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            <h1>Bienvenidos a <strong>Tienda de Velas</strong></h1>
+            <h1>Bienvenidos</h1>
             <p>
                 Descubre un mundo de fragancias y calidez con nuestras velas artesanales. Cada vela está diseñada para transformar tu hogar en un refugio de serenidad y belleza.
             </p>

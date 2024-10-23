@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaInstagram, FaFacebookF, FaWhatsapp } from 'react-icons/fa';
-import Card from '../components/Card'; // Verifica la ruta de Card
+import Card from '../components/Card'; 
 
 const Home = () => {
     const cardsData = [

@@ -7,21 +7,21 @@ const Home = () => {
         {
             title: "Card 1",
             description: "Description 1",
-            image: "/public/card 1.jpeg", // Asegúrate de que la imagen sea accesible
+            image: "/public/foto1.jpg", 
         },
         {
             title: "Card 2",
             description: "Description 2",
-            image: "https://via.placeholder.com/150",
+            image: "/public/IMG-20241013-WA0042.jpg",
         },
         {
             title: "Card 3",
             description: "Description 3",
-            image: "https://via.placeholder.com/150",
+            image: "/public/card2.jpg",
         },
     ];
 
-    const phoneNumber = "+1234567890"; // Reemplaza con tu número real
+    const phoneNumber = "+1234567890"; 
 
     return (
         <div className="home">

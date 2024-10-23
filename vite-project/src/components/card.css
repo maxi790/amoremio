@@ -1,40 +1,26 @@
 .card {
-    background-color: #fff; /* Fondo blanco para mayor claridad */
-    border-radius: 12px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
     overflow: hidden; 
-    margin: 16px;
-    max-width: 250px; /* Ancho máximo */
-    transition: transform 0.3s; /* Animación al hacer hover */
-    
-}
-
-
-.card:hover {
-    transform: translateY(-5px); /* Efecto de elevación */
-}
-
-
-
-.card-content {
-    padding: 12px;
-}
-
-.card-title {
-    font-size: 1.5em; /* Aumenta el tamaño del título */
-    margin: 0 0 8px; /* Margen inferior */
-    color: #333; /* Color de texto */
-}
-
-.card-description {
-    font-size: 0.9em; /* Tamaño de fuente más pequeño */
-    color: #666; /* Color gris para el texto */
-    line-height: 1.5; /* Espaciado de línea */
-}
-
-.card-image {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px; 
+    transition: transform 0.3s;
+    max-width: 200px;
+    display: inline-block;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card img {
     width: 100%;
-    height: 120px; /* Altura de imagen ajustada */
-    object-fit: cover; /* Mantiene la proporción de la imagen */
-    display: block; /* Asegura que no haya espacio debajo de la imagen */
-}
+    height: auto;
+    display: block;
+  }
+  
+ 
+  
+ 
+
+  

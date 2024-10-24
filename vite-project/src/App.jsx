@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Navbar from './vite-project/src/components/navbar';
-import Footer from './vite-project/src/components/footer';
+import Navbar from './components/navbar';
+import Footer from '.components/footer';
 import Shop from './vite-project/src/pages/shop';
 import Contact from './vite-project/src/pages/contact';
 import Home from './vite-project/src/pages/home';

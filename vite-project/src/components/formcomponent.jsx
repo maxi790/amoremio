@@ -19,15 +19,22 @@ const FormComponent = () => {
         e.preventDefault();
         console.log(formdata);
         
-        // Enlace de WhatsApp
-        const phoneNumber = "+543329604343"; // Reemplaza con tu número real
+        
+        const phoneNumber = "+543329604343"; 
         const whatsappMessage = `Nombre: ${formdata.name}\nEmail: ${formdata.email}\nMensaje: ${formdata.message}`;
         const whatsappLink = `https://wa.me/${phoneNumber.replace(/[\s+]/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
         
-        // Abrir WhatsApp
+        
         window.open(whatsappLink, '_blank');
 
-        // Resetear el formulario
+        
+        setFormdata({
+            name: "",
+            email: "",
+            message: "",
+        });
+    };
+     const handleclear = () => {
         setFormdata({
             name: "",
             email: "",
@@ -75,6 +82,10 @@ const FormComponent = () => {
                 </div>
                 <div className="form-group">
                     <button type="submit">Enviar</button>
+                   
+                </div>
+                <div className="form-group">
+                <button type="button" onClick={handleclear}>borrar</button>
                 </div>
             </form>
         </div>

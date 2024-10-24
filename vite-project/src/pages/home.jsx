@@ -7,17 +7,17 @@ const Home = () => {
         {
             title: "Card 1",
             description: "Description 1",
-            image: "/public/foto1.jpg", 
+            image: "/public/imgcard/foto1.jpg", 
         },
         {
             title: "Card 2",
             description: "Description 2",
-            image: "/public/IMG-20241013-WA0042.jpg",
+            image: "/public/imgcard/IMG-20241013-WA0042.jpg",
         },
         {
             title: "Card 3",
             description: "Description 3",
-            image: "/public/card2.jpg",
+            image: "/public/imgcard/card2.jpg",
         },
     ];
 
@@ -56,10 +56,10 @@ const Home = () => {
                 <p>Síguenos en nuestras redes sociales:</p>
                 <p>
                     <a href="https://www.instagram.com/amoremiovela/?igsh=MXV2Z24zY2F2bHRsaQ%3D%3D" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram /> Instagram
+                        <FaInstagram /> Amoremio
                     </a> | 
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <FaFacebookF /> amoremio
+                        <FaFacebookF /> Amoremio
                     </a>
                 </p>
                 <p>

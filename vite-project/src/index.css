@@ -63,6 +63,7 @@ background-color: rgb(253, 249, 249);
 }
 .form-group {
   margin-bottom: 30px;
+  
 }
 .form-group label {
   display: block;
@@ -84,7 +85,10 @@ background-color: rgb(253, 249, 249);
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  
 }
+
+
 .form-group button:hover {
   background-color: #45a049;
 }

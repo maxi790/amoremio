@@ -2,9 +2,8 @@
   "name": "nombre-de-tu-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<maxi790>.github.io/<amoremio>/",
-
-  "dependencies": {
+  "homepage": "https://github.com/maxi790/amoremio"
+, "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "react-slick": "^0.30.2",

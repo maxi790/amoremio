@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-
+import Shop from './pages/shop';
 import Navbar from './components/navbar';
-import Footer from '.components/footer';
-import Shop from './vite-project/src/pages/shop';
-import Contact from './vite-project/src/pages/contact';
-import Home from './vite-project/src/pages/home';
+import Footer from './components/footer'; 
+import Contact from './pages/contact';
+import Home from './pages/home';
 import './App.css';
 
 function App() {
